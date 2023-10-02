@@ -5,10 +5,13 @@ import logo from "../kyndryl-logo2.svg";
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <div className="nav-center">
+      {/* <div className="nav-center">
         <Link to="/">
           <img src={logo} alt="country db logo" className="logo" />
         </Link>
+      </div> */}
+      <div className="nav-center">
+        Social Service - please share to people freeing from Ukraine
       </div>
       <ul className="nav-links">
         <li>
