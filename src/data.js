@@ -150,7 +150,17 @@ const countries = [
     flag: "http://purecatamphetamine.github.io/country-flag-icons/3x2/DK.svg",
     entities: [
       {
+        
         id: 1,
+        entity: "Danish authorities information for Ukrainians",
+        url: "https://en.kriseinformation.dk/war/for-ukrainians"
+      },
+      { id: 2,
+        entity: "Information on temporary protection in Denmark",
+        url: "https://euaa.europa.eu/sites/default/files/2022-09/Booklet_Denmark_EN.pdf"
+      },
+      {
+        id: 3,
         entity: "United Nations",
         url: "https://help.unhcr.org/denmark",
       },
@@ -161,8 +171,16 @@ const countries = [
     name: "Estonia",
     flag: "http://purecatamphetamine.github.io/country-flag-icons/3x2/EE.svg",
     entities: [
+      { id: 1,
+        entity: "Estonian Government help for Ukrainian refugees",
+        url: "https://kriis.ee/en/security-situation-europe/ukrainian-war-refugees"
+      },
+      { id: 2,
+        entity: "Information for Ukrainian refugees arriving to Tallinn",
+        url: "https://www.tallinn.ee/en/ukraine"
+      },
       {
-        id: 1,
+        id: 3,
         entity: "United Nations",
         url: "https://help.unhcr.org/estonia/information-for-people-fleeing-ukraine/",
         phone: "+36 80 984 583",
@@ -174,8 +192,25 @@ const countries = [
     name: "Finland",
     flag: "http://purecatamphetamine.github.io/country-flag-icons/3x2/FI.svg",
     entities: [
+      
       {
         id: 1,
+        entity: "Finland government assistance",
+        url: "https://intermin.fi/en/helping-ukrainians"
+      },
+      {
+        id: 2,
+        entity: "FinUA Urgent support, job assistance",
+        url: "https://finua.org/en"
+      },
+      {
+        id: 3,
+        entity: "Treatment for Ukraine",
+        url: "https://www.treatment4ukraine.com/en/countries/finland/"
+      },
+     
+      {
+        id: 4,
         entity: "United Nations",
         url: "https://help.unhcr.org/finland/information-for-people-fleeing-ukraine-seeking-protection-in-finland/",
         phone: "+358 295 790 605",
@@ -308,6 +343,29 @@ const countries = [
   },
   {
     id: 14,
+    name: "Iceland",
+    flag: "http://purecatamphetamine.github.io/country-flag-icons/3x2/IS.svg",
+    entities: [
+      
+      {
+        id: 1,
+        entity: "Iceland government assistance",
+        url: "https://island.is/en/p/ukrainian-citizens",
+      },
+      {
+        id: 2,
+        entity: "Temporary protection in Iceland",
+        url: "https://euaa.europa.eu/sites/default/files/2022-07/Booklet_Iceland_EN.pdf",
+      },
+      {
+        id: 3,
+        entity: "United Nations - Iceland",
+        url: "https://help.unhcr.org/iceland/information-for-people-fleeing-ukraine/",
+      },
+    ],
+  },
+  {
+    id: 15,
     name: "Italy",
     flag: "http://purecatamphetamine.github.io/country-flag-icons/3x2/IT.svg",
     entities: [
@@ -327,7 +385,7 @@ const countries = [
     ],
   },
   {
-    id: 15,
+    id: 16,
     name: "Ireland",
     flag: "http://purecatamphetamine.github.io/country-flag-icons/3x2/IT.svg",
     entities: [
@@ -338,18 +396,7 @@ const countries = [
       },
     ],
   },
-  {
-    id: 16,
-    name: "Iceland",
-    flag: "http://purecatamphetamine.github.io/country-flag-icons/3x2/IS.svg",
-    entities: [
-      {
-        id: 1,
-        entity: "United Nations",
-        url: "https://help.unhcr.org/iceland/information-for-people-fleeing-ukraine/",
-      },
-    ],
-  },
+ 
   {
     id: 17,
     name: "Latvia",
@@ -397,6 +444,11 @@ const countries = [
     entities: [
       {
         id: 1,
+        entity: "Luxembourg government assitance",
+        url: "https://maee.gouvernement.lu/en/services-aux-citoyens/accueil-de-personnes-ukraine.html",
+      },
+      {
+        id: 2,
         entity: "International Diabetes Federation",
         url: "https://www.connectsolidarity.eu/i-am-in-luxembourg-%d1%8f-%d0%b2-%d0%bb%d1%8e%d0%ba%d1%81%d0%b5%d0%bc%d0%b1%d1%83%d1%80%d0%b7%d1%96/",
         services:
@@ -442,8 +494,20 @@ const countries = [
     name: "Netherlands",
     flag: "http://purecatamphetamine.github.io/country-flag-icons/3x2/NL.svg",
     entities: [
+      
       {
         id: 1,
+        entity: "Netherlands government assitance",
+        url: "https://www.government.nl/topics/reception-of-refugees-from-ukraine",
+      },
+      {
+        id: 2,
+        entity: "Asylum information",
+        url: "https://www.refugeehelp.nl/en/ukrainian-refugee",
+      },
+
+      {
+        id: 3,
         entity: "United Nations",
         url: "https://help.unhcr.org/netherlands/",
         phone: "+373 22 780 071",
