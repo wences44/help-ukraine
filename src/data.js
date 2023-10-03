@@ -364,19 +364,60 @@ const countries = [
       },
     ],
   },
+  
   {
     id: 15,
-    name: "Italy",
+    name: "Ireland",
     flag: "http://purecatamphetamine.github.io/country-flag-icons/3x2/IT.svg",
     entities: [
       {
         id: 1,
+        entity: "Irish government assistance",
+        url: "https://www.citizensinformation.ie/en/moving-country/ukrainian-refugees-in-ireland/",
+      },
+      {
+        id: 2,
+        entity: "Irish refugee council",
+        url: "https://www.irishrefugeecouncil.ie/pages/category/ukraine-response",
+      },
+      {
+        id: 3,
+        entity: "Inmigrant council",
+        url: "https://www.immigrantcouncil.ie/news/ukrainian-crisis-information-ukrainians-and-how-you-can-help",
+      },
+      {
+        id: 4,
+        entity: "United Nations",
+        url: "https://help.unhcr.org/ireland/uk/",
+      },
+      
+    ],
+  },
+  {
+    id: 16,
+    name: "Italy",
+    flag: "http://purecatamphetamine.github.io/country-flag-icons/3x2/IT.svg",
+    entities: [
+      
+      {
+        id: 1,
+        entity: "Refugee Info Italy",
+        url: "https://italy.refugee.info/hc/en-us/articles/6128487210519-Welcome-guide-for-people-fleeing-Ukraine",
+      },
+      {
+        id: 2,
+        entity: "Italian government assistance",
+        url: "https://integrazionemigranti.gov.it/en-gb/Dettaglio-approfondimento/id/44/-Ukraine-Emergency",
+      },
+      
+      {
+        id: 3,
         entity: "United Nations",
         url: "https://help.unhcr.org/italy/",
         phone: "+36 80 984 583",
       },
       {
-        id: 2,
+        id: 4,
         entity: "International Diabetes Federation",
         url: "https://www.connectsolidarity.eu/i-am-in-italy-%d1%8f-%d0%b2-%d1%96%d1%82%d0%b0%d0%bb%d1%96%d1%97/",
         services:
@@ -385,31 +426,24 @@ const countries = [
     ],
   },
   {
-    id: 16,
-    name: "Ireland",
-    flag: "http://purecatamphetamine.github.io/country-flag-icons/3x2/IT.svg",
-    entities: [
-      {
-        id: 1,
-        entity: "United Nations",
-        url: "https://help.unhcr.org/ireland/uk/",
-      },
-    ],
-  },
- 
-  {
     id: 17,
     name: "Latvia",
     flag: "http://purecatamphetamine.github.io/country-flag-icons/3x2/LV.svg",
     entities: [
+      
       {
         id: 1,
+        entity: "General information for ukrainians arriving to Latvia",
+        url: "https://www.ukraine-latvia.com/",
+      },
+      {
+        id: 2,
         entity: "United Nations",
         url: "https://help.unhcr.org/latvia/information-for-people-fleeing-ukraine/",
         phone: "+36 80 984 583",
       },
       {
-        id: 2,
+        id: 3,
         entity: "International Diabetes Federation",
         url: "https://www.connectsolidarity.eu/i-am-in-latvia-%d1%8f-%d0%b2-%d0%bb%d0%b0%d1%82%d0%b2%d1%96%d1%97/",
         services:
@@ -422,14 +456,31 @@ const countries = [
     name: "Lithuania",
     flag: "http://purecatamphetamine.github.io/country-flag-icons/3x2/LT.svg",
     entities: [
+      
       {
         id: 1,
+        entity: "International House Vilnius - help for Ukrainians",
+        url: "https://ihvilnius.lt/migration",
+      },
+      {
+        id: 2,
+        entity: "Vilnius university - help for Ukrainians",
+        url: "https://teisesklinika.lt/ukraina-en/",
+      },
+      
+      {
+        id: 3,
+        entity: "Migration Services",
+        url: "https://migracija.lrv.lt/lt/naudinga-informacija/ukraina-ukrayina-ukraina-ukraine/information-for-ukrainian-citizens-1/migration-services",
+      },
+      {
+        id: 4,
         entity: "United Nations",
         url: "https://help.unhcr.org/lithuania/information-for-people-fleeing-ukraine/",
         phone: "+36 80 984 583",
       },
       {
-        id: 2,
+        id: 5,
         entity: "International Diabetes Federation",
         url: "https://www.connectsolidarity.eu/i-am-in-lithuania-%d1%8f-%d0%b2-%d0%bb%d0%b8%d1%82%d0%b2%d1%96/",
         services:
@@ -449,6 +500,17 @@ const countries = [
       },
       {
         id: 2,
+        entity: "European Migration Network",
+        url: "https://emnluxembourg.uni.lu/information-for-ukrainians/",
+      },
+      
+      {
+        id: 3,
+        entity: "Guide to request protection",
+        url: "https://guichet.public.lu/en/citoyens/immigration/ukraine/protection-temporaire.html",
+      },
+      {
+        id: 4,
         entity: "International Diabetes Federation",
         url: "https://www.connectsolidarity.eu/i-am-in-luxembourg-%d1%8f-%d0%b2-%d0%bb%d1%8e%d0%ba%d1%81%d0%b5%d0%bc%d0%b1%d1%83%d1%80%d0%b7%d1%96/",
         services:
@@ -613,20 +675,25 @@ const countries = [
       {
         id: 1,
         entity: "National Council for Refugees",
-        url: "https://dopomoha.ro/uk",
+        url: "https://dopomoha.ro/en",
         phone: "+40 730073170",
         email: "office@cnrr.ro",
         services: "Information, legal counselling",
       },
       {
         id: 2,
+        entity: "Romanian government assistance",
+        url: "https://www.gov.ro/ro/pagina/ukraine-together-we-help-more",
+      },
+      {
+        id: 3,
         entity: "United Nations",
         url: "https://help.unhcr.org/romania/",
         phone: "(004) 0213126210",
         email: "office@cnrr.ro",
       },
       {
-        id: 3,
+        id: 4,
         entity: "International Diabetes Federation",
         url: "https://www.connectsolidarity.eu/uk/i-am-in-romania-%d1%8f-%d0%b2-%d1%80%d1%83%d0%bc%d1%83%d0%bd%d1%96%d1%97/",
         services:
@@ -790,22 +857,35 @@ const countries = [
         entity: "Government Visas",
         url: "https://taplink.cc/bakhutiklaw",
       },
+
       {
         id: 2,
+        entity: "General information for Ukrainian refugees",
+        url: "      https://ukrainianrefugeehelp.co.uk/",
+      },
+
+      {
+        id: 3,
+        entity: "British Red Cross - help for refugees",
+        url: "https://www.redcross.org.uk/get-help/get-help-as-a-refugee/help-for-refugees-from-ukraine#:~:text=For%20information%20about%20all%20support,interpreter%20if%20you%20need%20one.",
+      },
+      
+      {
+        id: 4,
         entity: "World Jewish Relief",
         url: "https://www.worldjewishrelief.org/news/1269-urgent-update-ukraine-crisis",
         services:
           "Offers Ukrainians in the UK help and advice with language and employment.",
       },
       {
-        id: 3,
+        id: 5,
         entity: "Sterling Law",
         url: "https://sterling-law.co.uk/services/",
         phone: "02078228535",
         services: "Offer registration for asylum on a simplified process.",
       },
       {
-        id: 4,
+        id: 6,
         entity: "Ukrainian Institute London",
         url: "https://refugee-support.ukrainianinstitute.org.uk/",
         services:
@@ -813,25 +893,20 @@ const countries = [
         email: "info@ukrainianinstitute.org.uk",
       },
       {
-        id: 5,
+        id: 7,
         entity: "United Nations",
         url: "https://help.unhcr.org/uk/unhcr-uk-information-and-links-regarding-ukraine/",
         phone: "",
         email: "",
       },
       {
-        id: 6,
+        id: 8,
         entity: "International Diabetes Federation",
         url: "https://www.connectsolidarity.eu/i-am-in-the-united-kingdom-%d1%8f-%d1%83-%d1%81%d0%bf%d0%be%d0%bb%d1%83%d1%87%d0%b5%d0%bd%d0%be%d0%bc%d1%83-%d0%ba%d0%be%d1%80%d0%be%d0%bb%d1%96%d0%b2%d1%81%d1%82%d0%b2%d1%96/",
         services:
           "Rights as Ukrainian refugees, Support for people with diabetes, useful links",
-      },
-      {
-        id: 7,
-        entity: "National Funding Scheme",
-        url: "https://www.nationalfundingscheme.org/ukraine",
-        services: "Homestay in the UK for Ukrainian citizens.",
-      },
+      }
+      
     ],
   },
 ];
