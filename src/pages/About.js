@@ -5,8 +5,8 @@ const About = () => {
     <section className="section about-section">
       <h1 className="section-title">about us</h1>
       <p>
-        We are a team of employees from Kyndryl volunteering to perform
-        activities to help people in need.
+        This is a public independent web site with information
+        useful for Ukrainian refugees seeking to settle in other country.
       </p>
     </section>
   );
