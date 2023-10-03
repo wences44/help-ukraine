@@ -176,6 +176,14 @@ Navbar
   margin: 0 auto;
   max-width: var(--fullWidth);
 }
+.nav-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: var(--smallWidth);
+  margin: 5rem;
+  max-width: var(--fullWidth);
+}
 .nav-links {
   display: flex;
   align-items: center;

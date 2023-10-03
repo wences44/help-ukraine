@@ -10,8 +10,8 @@ const Navbar = () => {
           <img src={logo} alt="country db logo" className="logo" />
         </Link>
       </div> */}
-      <div className="nav-center">
-        Social Service - please share to people freeing from Ukraine
+      <div className="nav-left">
+        Social Service - please share with people fleeing from Ukraine
       </div>
       <ul className="nav-links">
         <li>
