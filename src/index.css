@@ -240,14 +240,14 @@ countries List
 */
 
 .section {
-  padding: 5rem 0;
+  padding: 2rem 0;
 }
 .section-title {
   font-size: 2.5rem;
   text-transform: capitalize;
   letter-spacing: var(--mainSpacing);
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   margin-top: 1.5rem;
 }
 .countries-center {
@@ -310,7 +310,7 @@ Form
 ======
 */
 .search {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   padding-bottom: 0;
 }
 
