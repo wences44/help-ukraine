@@ -520,8 +520,20 @@ const countries = [
     name: "Norway",
     flag: "http://purecatamphetamine.github.io/country-flag-icons/3x2/NO.svg",
     entities: [
+      
       {
         id: 1,
+        entity: "UDI association assistance",
+        url: "https://www.udi.no/en/information-ukraine-and-russia/situation-in-ukraine/",
+      },
+      {
+        id: 2,
+        entity: "Norway government assistance",
+        url: " https://www.imdi.no/en/english-pages/information-to-refugees-from-the-ukraine/",
+      },
+     
+      {
+        id: 3,
         entity: "United Nations",
         url: "https://help.unhcr.org/norway/",
         phone: "+373 22 780 071",
@@ -573,13 +585,19 @@ const countries = [
     name: "Portugal",
     flag: "http://purecatamphetamine.github.io/country-flag-icons/3x2/PT.svg",
     entities: [
+      
       {
         id: 1,
+        entity: "Portuguese government assistance",
+        url: "https://eportugal.gov.pt/en/migrantes-viver-e-trabalhar-em-portugal/ucrania-informacoes-e-apoios-disponiveis-em-portugal",
+      },
+      {
+        id: 2,
         entity: "United Nations",
         url: "https://help.unhcr.org/portugal/information-for-people-fleeing-ukraine/",
       },
       {
-        id: 2,
+        id: 3,
         entity: "International Diabetes Federation",
         url: "https://www.connectsolidarity.eu/i-am-in-portugal-%d1%8f-%d0%b2-%d0%bf%d0%be%d1%80%d1%82%d1%83%d0%b3%d0%b0%d0%bb%d1%96%d1%97/",
         services:
@@ -621,9 +639,15 @@ const countries = [
     name: "Serbia",
     flag: "http://purecatamphetamine.github.io/country-flag-icons/3x2/RS.svg",
     entities: [
+      
       {
         id: 1,
-        entity: "Government",
+        entity: "Government assitance",
+        url: "https://kirs.gov.rs/eng/aktuelno/contact-number-and-email-address-for-refugees-coming-from-ukraine-and-those-that-have-accommodated-them-in-serbia/3901",
+      },
+      {
+        id: 2,
+        entity: "United nations - Serbia",
         url: "https://help.unhcr.org/serbia/",
       },
     ],
@@ -684,8 +708,19 @@ const countries = [
         url: "https://www.comunidad.madrid/servicios/ucrania",
         phone: "+34 900 822 833",
       },
+     
       {
         id: 2,
+        entity: "Information on temporary protection in Spain",
+        url: " https://euaa.europa.eu/sites/default/files/2022-06/Booklet_Spain_EN.pdf",
+      },
+      {
+        id: 3,
+        entity: "BBVA guidance",
+        url: "https://www.bbva.es/en/content/dam/public-web/bbvaes/documents/general/guia-ucrania-2.pdf",
+      },
+      {
+        id: 4,
         entity: "United Nations",
         url: "https://help.unhcr.org/spain/ucrania-proteccion-en-espana/",
       },
@@ -696,8 +731,14 @@ const countries = [
     name: "Sweden",
     flag: "http://purecatamphetamine.github.io/country-flag-icons/3x2/SE.svg",
     entities: [
+      
       {
         id: 1,
+        entity: "Swedish government assistance",
+        url: "https://www.informationsverige.se/en/jag-har-fatt-uppehallstillstand/du-som-har-flytt-fran-kriget-i-ukraina.html/",
+      },
+      {
+        id: 2,
         entity: "United Nations",
         url: "https://help.unhcr.org/sweden/",
         phone: "",
@@ -705,7 +746,7 @@ const countries = [
       },
 
       {
-        id: 2,
+        id: 3,
         entity: "International Diabetes Federation",
         url: "https://www.connectsolidarity.eu/uk/i-am-in-sweden-%d1%8f-%d0%b2-%d1%88%d0%b2%d0%b5%d1%86%d1%96%d1%97/",
         services:
@@ -718,8 +759,20 @@ const countries = [
     name: "Switzerland",
     flag: "http://purecatamphetamine.github.io/country-flag-icons/3x2/CH.svg",
     entities: [
+      
       {
         id: 1,
+        entity: "Swiss government assistance",
+        url: "https://www.sem.admin.ch/sem/en/home/asyl/ukraine.html",
+      },
+      {
+        id: 2,
+        entity: "Swiss refugee council",
+        url: "https://www.refugeecouncil.ch/assistance-for-asylum-seekers/ukraine-useful-information-concerning-people-in-need-of-protection?_gl=1*17kf6z6*_gcl_au*MTU2MzMxODY1LjE2OTYzNTE0MTc.&_ga=2.14682294.102279694.1696351417-1010172242.1696351409",
+      },
+      
+      {
+        id: 3,
         entity: "United Nations",
         url: "https://help.unhcr.org/switzerland/ukraine",
         phone: "",
